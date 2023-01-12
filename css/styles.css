@@ -1,6 +1,7 @@
-.body {
+body {
   overflow: hidden;
 }
+
 .container {
   display: flex;
   background-color: white;
