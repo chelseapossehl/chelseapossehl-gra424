@@ -1,8 +1,7 @@
-.square { 
-    border: 1px solid gray;
+.content { 
+    background-color:black;
     position: relative;
-    text-align: center;
     width: 71.428571vw;
     height: 71.428571vw;
-    align: center;
+    box-align: center;
   }
