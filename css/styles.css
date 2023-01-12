@@ -1,6 +1,7 @@
 .content { 
     background-color:black;
     position: relative;
+    text-align: center;
     width: 14.285714vw;
     height: 14.285714vw;
     box-align: center;
