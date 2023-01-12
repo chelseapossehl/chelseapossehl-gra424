@@ -1,5 +1,7 @@
 .parent {
     display: flex;
+    margin: 0 auto;
+    margin-top: 50%;
     background-color: white;
     border: solid gray 1px;
     height: 71.428571vw;
@@ -30,5 +32,6 @@
     bottom: 0;
     margin: auto;
   }
+  
   
 
