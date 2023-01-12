@@ -1,15 +1,16 @@
 .parent {
+    display: flex;
     background-color: white;
     border: solid gray 1px;
-    height: 500px;
-    width: 500px;
-    position: relative
+    height: 71.428571vw;
+    width: 71.428571vw;
+    position: relative;
   }
   .parent .pencil {
     background-color: white;
     border: solid gray 1px;
-    height: 300px;
-    width: 300px;
+    height: 42.857143vw;
+    width: 42.857143vw;
     position: absolute;
     left: 0;
     top: 0;
@@ -20,8 +21,8 @@
   
   .parent .square {
     background: black;
-    width: 100px;
-    height: 100px;
+    width: 14.285714vw;
+    height: 14.285714vw;
     position: absolute;
     left: 0;
     top: 0;
