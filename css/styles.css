@@ -6,20 +6,3 @@
     justify-content: center;
   }
 
-  .parent {
-    border: 1.5px;
-    border-color: gray;
-    height: 42.857143vw;
-    width: 42.857143vw;
-    position: relative;
-  }
-  
-  .child {
-    background: black;
-    width: 14.285714vw;
-    height: 14.285714vw;
-    position: absolute;
-    top: 14.285714vw;
-    left: 14.285714vw;
-    margin: -50px 0 0 -50px;
-  }
