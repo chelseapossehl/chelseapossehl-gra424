@@ -160,3 +160,45 @@ body {
   margin-right: 0;
   margin-top: -1vh;
 }
+
+.lineblack3 {
+  display: flex;
+  height: 42.857143vh;
+  width: 42.857143vw;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  top: -57.125vh;
+}
+
+.line3 {
+  display: flex;
+  background-color: black;
+  width: 1vw;
+  height: 65vh;
+  transform: rotate(-14.5deg);
+  transform-origin: 0% 0%;
+  margin: auto;
+}
+
+.line-left3 {
+  display: flex;
+  background-color: black;
+  width: 1vw;
+  height: 65vh;
+  transform: rotate(-14.5deg);
+  transform-origin: 0% 0%;
+  margin: auto;
+  margin-left: -5.5vh;
+}
+
+.line-right3 {
+  display: flex;
+  background-color: black;
+  width: 1vw;
+  height: 65vh;
+  transform: rotate(-14.5deg);
+  transform-origin: 0% 0%;
+  margin: auto;
+  margin-right: 0;
+}
