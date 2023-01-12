@@ -61,7 +61,7 @@ body {
 .square6 {
   display: flex;
   background-color: white;
-   width: 14.285714vw;
+  width: 14.285714vw;
   height: 14.285714vh;
   margin: auto;
 }
@@ -71,13 +71,48 @@ body {
   background-color: white;
   width: 100vw;
   height: 100vh;
+  margin: auto;
 }
 
 .square7 {
   display: flex;
   background-color: white;
-  border: 1pt solid gray;
   height: 71.428571vh;
   width: 71.428571vw;
+  border: 1px solid black;
+  margin: auto;  
+}
+
+.square8 {
+  display: flex;
+  background-color: white;
+  height: 42.857143vh;
+  width: 42.857143vw;
   margin: auto;
+}
+
+.line {
+  display: flex;
+  background-color: black;
+  width: 1vw;
+  height: 42.857143vh;
+  margin: auto;    
+}
+
+.line-left {
+  display: flex;
+  background-color: black;
+  width: 1vw;
+  height: 42.857143vh;
+  margin: auto;
+  margin-left: 0;
+}
+
+.line-right {
+  display: flex;
+  background-color: black;
+  width: 1vw;
+  height: 42.857143vh;
+  margin: auto;
+  margin-right: 0;
 }
