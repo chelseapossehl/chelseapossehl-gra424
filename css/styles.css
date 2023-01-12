@@ -3,6 +3,7 @@
     position: relative;
     width: 14.285714vw;
     height: 14.285714vw;
+    align-items: center;
     justify-content: center;
   }
 
