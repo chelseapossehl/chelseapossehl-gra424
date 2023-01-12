@@ -3,14 +3,14 @@
     margin: auto;
     background-color: white;
     border: solid gray 1px;
-    height: 71.428571vw;
+    height: 71.428571vh;
     width: 71.428571vw;
     position: relative;
   }
   .parent .pencil {
     background-color: white;
     border: solid gray 1px;
-    height: 42.857143vw;
+    height: 42.857143vh;
     width: 42.857143vw;
     position: absolute;
     left: 0;
@@ -23,7 +23,7 @@
   .parent .square {
     background: black;
     width: 14.285714vw;
-    height: 14.285714vw;
+    height: 14.285714vh;
     position: absolute;
     left: 0;
     top: 0;
@@ -37,13 +37,13 @@
     margin: auto;
     background-color: white;
     border: solid gray 1px;
-    height: 71.428571vw;
+    height: 71.428571vh;
     width: 71.428571vw;
     position: relative;
   }
   .parent_2 .pencil_2 {
     background-color: black;
-    height: 42.857143vw;
+    height: 42.857143vh;
     width: 42.857143vw;
     position: absolute;
     left: 0;
@@ -56,7 +56,7 @@
   .parent_2 .square_2 {
     background: white;
     width: 14.285714vw;
-    height: 14.285714vw;
+    height: 14.285714vh;
     position: absolute;
     left: 0;
     top: 0;
