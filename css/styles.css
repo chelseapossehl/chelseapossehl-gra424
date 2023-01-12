@@ -1,26 +1,15 @@
-.content { 
-    background-color:black;
-    position: relative;
-    width: 14.285714vw;
-    height: 14.285714vw;
-    justify-content: center;
-  }
+html, body { height: 100%; }
 
-  .parent {
-    background: white;
-    border: 1.5px;
-    border-color: gray;
-    height: 300px;
-    width: 300px;
-    position: relative;
-  }
-  
-  .child {
-    background: gray;
-    width: 14.285714vw;
-    height: 14.285714vw;
-    position: absolute;
-    top: 14.285714vw;
-    left: 14.285714vw;
-    margin: -50px 0 0 -50px;
-  }
+.parent {
+  height: 200px;
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+}
