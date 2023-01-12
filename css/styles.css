@@ -1,6 +1,11 @@
 .square {
-    height: 250px;
-    width: 250px;
+    height: 50%;
+    width: 50%;
     background-color: black;
 
 }
+
+.square:after {
+    display: block;
+    padding-bottom: 100%;
+  }
