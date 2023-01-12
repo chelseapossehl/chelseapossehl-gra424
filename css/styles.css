@@ -42,8 +42,7 @@
     position: relative;
   }
   .parent_2 .pencil_2 {
-    background-color: white;
-    border: solid gray 1px;
+    background-color: black;
     height: 42.857143vw;
     width: 42.857143vw;
     position: absolute;
@@ -55,7 +54,7 @@
   }
   
   .parent_2 .square_2 {
-    background: black;
+    background: white;
     width: 14.285714vw;
     height: 14.285714vw;
     position: absolute;
