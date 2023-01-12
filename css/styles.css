@@ -65,7 +65,19 @@
 .container3 {
   display: flex;
   background-color: white;
-  border: 1pt solid gray;
   width: 100vw;
   height: 100vh;
+}
+
+.square7 {
+  display: flex;
+  background-color: white;
+  border: 1pt solid gray;
+  height: 71.428571vh;
+  width: 71.428571vw;
+  margin: auto;
+}
+
+.blackline {
+  
 }
