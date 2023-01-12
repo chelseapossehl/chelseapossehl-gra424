@@ -1,9 +1,37 @@
-.content { 
-    background-color:black;
-    position: relative;
-    width: 14.285714vw;
-    height: 14.285714vw;
-    align-items: center;
-    justify-content: center;
-  }
+@import "compass/css3";
 
+* { box-sizing: border-box; }
+body, html { height: 100%; }
+body { background: #ccc; }
+.wrapper {
+  height: auto;
+  margin: 0 auto;
+  overflow: auto;
+  position: relative;
+  width: 50%;
+  .square {
+    background: #000;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    &:after {
+      background: #fff;
+      content: '';
+      display: block;
+      height: 0;
+      left: 50%;
+      margin-left: -16.5%;
+      margin-top: -16.5%;
+      padding-bottom: 33%;
+      position: absolute;
+      top: 50%;
+      width: 33%;
+    }
+  }
+  .logo {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    h1 { color: red; font-size: .5em; margin-top: 0; text-align: center; }
+  }
+}
