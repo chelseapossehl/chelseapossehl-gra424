@@ -1,9 +1,12 @@
+.body {
+  overflow: hidden;
+}
 .container {
   display: flex;
   background-color: white;
   width: 100vw;
   height: 100vh;
-  margin: auto;
+
 }
 
 .square1 {
