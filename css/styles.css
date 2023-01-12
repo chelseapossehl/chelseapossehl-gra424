@@ -31,6 +31,40 @@
     bottom: 0;
     margin: auto;
   }
+
+  .parent_2 {
+    display: flex;
+    margin: auto;
+    background-color: white;
+    border: solid gray 1px;
+    height: 71.428571vw;
+    width: 71.428571vw;
+    position: relative;
+  }
+  .parent_2 .pencil_2 {
+    background-color: white;
+    border: solid gray 1px;
+    height: 42.857143vw;
+    width: 42.857143vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  
+  .parent_2 .square_2 {
+    background: black;
+    width: 14.285714vw;
+    height: 14.285714vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
   
   
   
