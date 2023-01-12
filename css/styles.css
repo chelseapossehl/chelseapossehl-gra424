@@ -8,7 +8,7 @@
 .square1 {
   display: flex;
   background-color: white;
-  border: 1pt solid black;
+  border: 1pt solid gray;
   height: 71.428571vh;
   width: 71.428571vw;
   margin: auto;
@@ -16,7 +16,7 @@
 
 .square2 {
   display: flex;
-  border: 1pt solid rgb(230, 230, 230);
+  border: .75pt solid rgb(230, 230, 230);
   height: 42.857143vh;
   width: 42.857143vw;
   margin: auto;
