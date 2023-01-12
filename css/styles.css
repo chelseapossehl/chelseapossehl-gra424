@@ -1,11 +1,12 @@
-.square {
-    height: 50%;
-    width: 50%;
-    background-color: black;
+.square { 
+    border: 5px solid red;
+    position: relative;
+    text-align: center;
+    width: 50vw;
+    height: 50vw;
+  }
 
-}
-
-.square:after {
-    display: block;
-    padding-bottom: 100%;
+  .content {
+    font-size: 2em;
+    padding-top: 20%;
   }
