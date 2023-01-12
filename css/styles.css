@@ -1,9 +1,33 @@
-.content { 
-    background-color:black;
-    position: relative;
-    width: 14.285714vw;
-    height: 14.285714vw;
-    display: flex;
-    margin: 0 auto;
+.parent {
+    background-color: white;
+    border: solid gray 1px;
+    height: 500px;
+    width: 500px;
+    position: relative
   }
+  .parent .pencil {
+    background-color: white;
+    border: solid gray 1px;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  
+  .parent .square {
+    background: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  
 
