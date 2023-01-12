@@ -79,7 +79,7 @@ body {
   background-color: white;
   height: 71.428571vh;
   width: 71.428571vw;
-  border: 1px solid black;
+  border: 1pt solid gray;
   margin: auto;  
 }
 
@@ -94,7 +94,7 @@ body {
 .line {
   display: flex;
   background-color: black;
-  width: 1vw;
+  width: 1.5vw;
   height: 42.857143vh;
   margin: auto;    
 }
@@ -102,7 +102,7 @@ body {
 .line-left {
   display: flex;
   background-color: black;
-  width: 1vw;
+  width: 1.5vw;
   height: 42.857143vh;
   margin: auto;
   margin-left: 0;
@@ -111,7 +111,7 @@ body {
 .line-right {
   display: flex;
   background-color: black;
-  width: 1vw;
+  width: 1.5vw;
   height: 42.857143vh;
   margin: auto;
   margin-right: 0;
