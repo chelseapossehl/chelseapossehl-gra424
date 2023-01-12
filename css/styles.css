@@ -40,7 +40,7 @@
 .square4 {
   display: flex;
   background-color: white;
-  border: 1pt solid black;
+  border: 1pt solid gray;
   height: 71.428571vh;
   width: 71.428571vw;
   margin: auto;
