@@ -1,69 +1,71 @@
 .parent {
-    display: flex;
-    margin: auto;
-    background-color: white;
-    border: solid gray 1px;
-    height: 71.428571vh;
-    width: 71.428571vw;
-    position: relative;
-  }
-  .parent .pencil {
-    background-color: white;
-    border: solid gray 0.75px;
-    height: 42.857143vh;
-    width: 42.857143vw;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-  }
-  
-  .parent .square {
-    background: black;
-    width: 14.285714vw;
-    height: 14.285714vh;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-  }
+  display: flex;
+  margin: auto;
+  background-color: white;
+  border: solid gray 1px;
+  height: 71.428571vh;
+  width: 71.428571vw;
+  position: relative;
+}
 
-  .parent_2 {
-    display: flex;
-    margin: auto;
-    background-color: white;
-    border: solid gray 1px;
-    height: 71.428571vh;
-    width: 71.428571vw;
-    position: relative;
-  }
-  .parent_2 .pencil_2 {
-    background-color: black;
-    height: 42.857143vh;
-    width: 42.857143vw;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-  }
+.parent .pencil {
+  background-color: white;
+  border: solid gray 0.75px;
+  height: 42.857143vh;
+  width: 42.857143vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
   
-  .parent_2 .square_2 {
-    background: white;
-    width: 14.285714vw;
-    height: 14.285714vh;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-  }
+.parent .square {
+  background: black;
+  width: 14.285714vw;
+  height: 14.285714vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.parent_2 {
+  display: flex;
+  margin: auto;
+  background-color: white;
+  border: solid gray 1px;
+  height: 71.428571vh;
+  width: 71.428571vw;
+  position: relative;
+}
+
+.parent_2 .pencil_2 {
+  background-color: black;
+  height: 42.857143vh;
+  width: 42.857143vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+  
+.parent_2 .square_2 {
+  background: white;
+  width: 14.285714vw;
+  height: 14.285714vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
   
   
   
