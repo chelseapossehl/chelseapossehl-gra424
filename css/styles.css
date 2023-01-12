@@ -1,37 +1,34 @@
-.parent {
-    display: flex;
-    margin: auto;
-    background-color: white;
-    border: solid gray 1px;
-    height: 71.428571vh;
-    width: 71.428571vw;
-    position: relative;
-  }
-  .parent .pencil {
-    background-color: white;
-    border: solid gray 0.75px;
-    height: 42.857143vh;
-    width: 42.857143vw;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-  }
-  
-  .parent .square {
-    background: black;
-    width: 14.285714vw;
-    height: 14.285714vh;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-  }
+.container {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
 
+.square1 {
+  display: flex;
+  background-color: white;
+  border: .25 solid black;
+  height: 71.428571vh;
+  width: 71.428571vw;
+  margin: auto;
+}
+
+.square2 {
+  display: flex;
+  border: .25 solid #c7c8ca;
+  height: 42.857143vh;
+  width: 42.857143vw; 
+  margin: auto;
+}
+
+.square3 {
+  display: flex;
+  background-color: black;
+  height: 14.285714vh;
+  width: 14.285714vw;
+  margin: auto;  
+}
   .parent_2 {
     display: flex;
     margin: auto;
