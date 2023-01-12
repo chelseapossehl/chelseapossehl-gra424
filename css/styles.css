@@ -30,40 +30,34 @@
   margin: auto;
 }
 
-.parent_2 {
+.container2 {
   display: flex;
-  margin: auto;
   background-color: white;
-  border: solid gray 1px;
-  height: 71.428571vh;
-  width: 71.428571vw;
-  position: relative;
+  width: 100vw;
+  height: 100vh;
 }
 
-.parent_2 .pencil_2 {
+.square4 {
+  display: flex;
+  background-color: white;
+  border: 1pt solid black;
+  height: 71.428571vh;
+  width: 71.428571vw;
+  margin: auto;
+}
+
+.square5 {
+  display: flex;
   background-color: black;
   height: 42.857143vh;
   width: 42.857143vw;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
   margin: auto;
 }
-  
-.parent_2 .square_2 {
-  background: white;
-  width: 14.285714vw;
-  height: 14.285714vh;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-}
-  
-  
-  
 
+.square6 {
+  display: flex;
+  background-color: white;
+   width: 14.285714vw;
+  height: 14.285714vh;
+  margin: auto;
+}
