@@ -1,9 +1,9 @@
 .content { 
     background-color:black;
+    position: relative;
     width: 14.285714vw;
     height: 14.285714vw;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
   }
 
