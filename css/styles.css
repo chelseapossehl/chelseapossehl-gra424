@@ -79,30 +79,34 @@ body {
   background-color: white;
   height: 71.428571vh;
   width: 71.428571vw;
-  border: 1pt solid gray;
-  margin: auto;  
+  border: 1px solid black;
+  margin: auto;
 }
 
 .square8 {
-  display: flex;
-  background-color: white;
   height: 42.857143vh;
   width: 42.857143vw;
   margin: auto;
 }
 
+.lineblack {
+  display: flex;
+  height: 42.857143vh;
+  width: 42.857143vw;
+  margin: auto;
+}
 .line {
   display: flex;
   background-color: black;
-  width: 1.5vw;
+  width: 1vw;
   height: 42.857143vh;
-  margin: auto;    
+  margin: auto;
 }
 
 .line-left {
   display: flex;
   background-color: black;
-  width: 1.5vw;
+  width: 1vw;
   height: 42.857143vh;
   margin: auto;
   margin-left: 0;
@@ -111,8 +115,47 @@ body {
 .line-right {
   display: flex;
   background-color: black;
-  width: 1.5vw;
+  width: 1vw;
   height: 42.857143vh;
   margin: auto;
   margin-right: 0;
+}
+
+.subtraction-square {
+  display: flex;
+  width: 10.55vw;
+  height: 14.285714vh;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  top: -28.17384281vh;
+}
+
+.line-2 {
+  display: flex;
+  background-color: white;
+  height: 14.285714vh;
+  width: 1pt;
+  margin: auto;
+  margin-top: -1vh;
+}
+
+.line-2-left {
+  display: flex;
+  background-color: white;
+  width: 1pt;
+  height: 14.285714vh;
+  margin: auto;
+  margin-left: 0;
+  margin-top: -1vh;
+}
+
+.line-2-right {
+  display: flex;
+  background-color: white;
+  width: 1pt;
+  height: 14.285714vh;
+  margin: auto;
+  margin-right: 0;
+  margin-top: -1vh;
 }
