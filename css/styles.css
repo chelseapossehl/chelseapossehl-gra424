@@ -8,8 +8,17 @@ h1 {
   color: black;
 }
 
-.links {
+a:link {
   text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: gray;
 }
 .container {
   display: flex;
