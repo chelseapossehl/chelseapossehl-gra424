@@ -5,6 +5,7 @@ body {
 }
 
 header {
+  box-sizing: border-box;
   background: black;
   padding: 2rem;
   position: fixed;
