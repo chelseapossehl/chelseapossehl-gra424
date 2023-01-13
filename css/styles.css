@@ -4,9 +4,12 @@ body {
   overflow: hidden;
 }
 
-
 h1 {
   color: black;
+}
+
+.links {
+  text-decoration: none;
 }
 .container {
   display: flex;
