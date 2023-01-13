@@ -202,3 +202,45 @@ body {
   margin: auto;
   margin-right: 0;
 }
+
+.subtraction-square4 {
+  display: flex;
+  width: 12vw;
+  height: 14.285714vh;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  top: -85.3vh;
+}
+
+.line-4 {
+  display: flex;
+  background-color: white;
+  height: 14.285714vh;
+  width: 1pt;
+  transform: rotate(-353deg);
+  margin: auto;
+  margin-top: -1vh;
+}
+
+.line-4-left {
+  display: flex;
+  background-color: white;
+  width: 1pt;
+  height: 14.285714vh;
+  transform: rotate(-353deg);
+  margin: auto;
+  margin-left: 0.7vh;
+  margin-top: -1vh;
+}
+
+.line-4-right {
+  display: flex;
+  background-color: white;
+  width: 1pt;
+  height: 14.285714vh;
+  transform: rotate(-353deg);
+  margin: auto;
+  margin-right: 0.7vh;
+  margin-top: -1vh;
+}
