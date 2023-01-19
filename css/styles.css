@@ -360,3 +360,27 @@ ul {
   background-color: rgb(200, 95, 73);
 }
 
+.container-7 {
+  display: flex;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+
+.square-middle {
+  display: flex;
+  background-color: white;
+  border: 1pt solid gray;
+  height: 71.428571vh;
+  width: 71.428571vw;
+  margin: auto;
+}
+
+.square-small {
+  display: flex;
+  border: .75pt solid rgb(230, 230, 230);
+  height: 42.857143vh;
+  width: 42.857143vw;
+  margin: auto;
+}
