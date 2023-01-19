@@ -444,7 +444,7 @@ ul {
   display: flex;
   width: 14.285714vw;
   height: 14.285714vh;
-  background-color: rgb(215, 169, 145);
+  background-color: rgb(160, 141, 127);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -455,7 +455,7 @@ ul {
 .left-square-2 {
   width: 28.571428vw;
   height: 28.571428vh;
-  background-color: rgb(160, 141, 127);
+  background-color: rgb(246, 184, 150);
   position: absolute;
 }
 
