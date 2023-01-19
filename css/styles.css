@@ -371,7 +371,6 @@ ul {
 .square-middle {
   display: flex;
   background-color: white;
-  border: 1pt solid gray;
   height: 71.428571vh;
   width: 71.428571vw;
   margin: auto;
@@ -379,8 +378,19 @@ ul {
 
 .square-small {
   display: flex;
-  border: .75pt solid rgb(230, 230, 230);
   height: 42.857143vh;
   width: 42.857143vw;
   margin: auto;
+  position: absolute;
 }
+
+.left-square {
+  width: 28.571428vw;
+  height: 28.571428vh;
+  background-color: rgb(246, 184, 150);
+  position: absolute;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+
