@@ -57,7 +57,7 @@ ul {
 .square3 {
   display: flex;
   background-color: black;
-   width: 14.285714vw;
+  width: 14.285714vw;
   height: 14.285714vh;
   margin: auto;
 }
@@ -107,7 +107,7 @@ ul {
   background-color: white;
   height: 71.428571vh;
   width: 71.428571vw;
-  border: 1pt solid black;
+  border: 1pt solid gray;
   margin: auto;
 }
 
