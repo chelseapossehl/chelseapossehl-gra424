@@ -300,7 +300,7 @@ ul {
 
 .square-12 {
   display: flex;
-  background-color: black;
+  background-color: rgb(52, 42, 29);
    width: 14.285714vw;
   height: 14.285714vh;
   margin: auto;
