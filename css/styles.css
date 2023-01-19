@@ -272,3 +272,36 @@ ul {
   margin-right: 0.7vh;
   margin-top: -1vh;
 }
+
+.container-6 {
+  display: flex;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+
+.square-10 {
+  display: flex;
+  background-color: white;
+  border: 1pt solid gray;
+  height: 71.428571vh;
+  width: 71.428571vw;
+  margin: auto;
+}
+
+.square-11 {
+  display: flex;
+  border: .75pt solid rgb(230, 230, 230);
+  height: 42.857143vh;
+  width: 42.857143vw;
+  margin: auto;
+}
+
+.square-12 {
+  display: flex;
+  background-color: black;
+   width: 14.285714vw;
+  height: 14.285714vh;
+  margin: auto;
+}
