@@ -467,3 +467,57 @@ ul {
   bottom: 0;
   right: 0;
 }
+
+.container-9 {
+  display: flex;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+
+.square-middle-3 {
+  display: flex;
+  width: 71.428571vw;
+  height: 71.428571vh;
+  border: 1pt solid gray;
+  margin: auto;
+}
+
+.square-small-3 {
+  height: 42.857143vh;
+  width: 42.857143vw;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.transparency-3 {
+  display: flex;
+  width: 14.285714vw;
+  height: 14.285714vh;
+  background-color: rgb(72, 97, 122);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.left-square-3 {
+  width: 28.571428vw;
+  height: 28.571428vh;
+  background-color: rgb(246, 184, 150);
+  position: absolute;
+}
+
+.right-square-3 {
+  width: 28.571428vw;
+  height: 28.571428vh;
+  background-color: rgb(40, 70, 147);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
