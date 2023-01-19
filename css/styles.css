@@ -107,7 +107,7 @@ ul {
   background-color: white;
   height: 71.428571vh;
   width: 71.428571vw;
-  border: 1px solid black;
+  border: 1pt solid black;
   margin: auto;
 }
 
@@ -372,7 +372,7 @@ ul {
   display: flex;
   width: 71.428571vw;
   height: 71.428571vh;
-  border: 1px solid gray;
+  border: 1pt solid gray;
   margin: auto;
 }
 
